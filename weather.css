@@ -1,8 +1,26 @@
 p{
-    color: white;
+    color: rgb(210, 64, 64);
     font-weight: 800;
 
 }
-body{
-    background-color: blue;
+.main{
+    width: 300px;
+    /* height: 600px; */
+    margin-left: 400px;
+    margin-top: 20px;
+    background-image: url(https://www.leitrimobserver.ie/resizer/640/-1/true/1636731576678.jpg--a_mainly_dry_and_sunny_weekend_on_the_way.jpg?1636731588000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:150px 150px ;
+}
+.btns{
+    padding-top: 10px;
+    /* background-color: blue; */
+}
+h1{
+    font-size: larger;
+    padding-left: 80px;
 }
